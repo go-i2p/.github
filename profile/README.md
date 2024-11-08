@@ -3,9 +3,11 @@ go-i2p
 
 Tunnels for gophers!
 
-## Official source of I2P SAMv3 application development libraries:
+I2P applications, libraries, and tools written in Go.
 
-### Go SAMv3 library users: Notice of upcoming module path changes!
+### Go I2P library users: Notice of upcoming module path changes!
+
+## Official source of I2P SAMv3 application development libraries:
 
 The module path for the Go SAMv3 libraries is changing from my personal namespace(`eyedeekay`) to the `go-i2p` namespace.
 This will affect you when you update your SAMv3 library versions.
