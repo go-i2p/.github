@@ -24,7 +24,7 @@ The new module paths are listed below:
 
 ## Official source of I2P Bittorrent development libraries:
 
- * [go-i2p-bt I2P Bittorrent library](https://github.com/go-i2p/go-i2p-bt) `import https://github.com/go-i2p/go-i2p-bt`
+ * [go-i2p-bt I2P Bittorrent library(stable)](https://github.com/go-i2p/go-i2p-bt) `import https://github.com/go-i2p/go-i2p-bt`
 
 ### Official source of I2P router development libraries:
 
