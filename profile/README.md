@@ -28,4 +28,6 @@ The new module paths are listed below:
 
 ### Official source of I2P router development libraries:
 
+go-i2p is under active development. [go-i2p ROADMAP.md](https://github.com/go-i2p/go-i2p/blob/master/ROADMAP.md)
+
  * [go-i2p I2P router implementation(incomplete and unstable)](https://github.com/go-i2p/go-i2p) `import https://github.com/go-i2p/go-i2p`
