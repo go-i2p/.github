@@ -9,6 +9,15 @@ I2P applications, libraries, and tools written in Go.
 
 The module path for the Go SAMv3 libraries is changing from my personal namespace(`eyedeekay`) to the `go-i2p` namespace.
 This will affect you when you update your SAMv3 or I2PControl library versions.
+To upgrade:
+
+```sh
+#1: first, delete the old module paths from your go.mod
+grep -v 'eyedeekay' go.mod > go.mod.new && mv go.mod.new go.mod
+#2: then regenerate your go.mod file
+go mod tidy
+```
+
 The new module paths are listed below:
 
 ## Official source of I2P SAMv3 application development libraries:
