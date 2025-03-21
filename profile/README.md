@@ -26,8 +26,8 @@ The new module paths are listed below:
   - High-level framework for I2P-native web services
   `import "github.com/go-i2p/onramp"`
 
-* [go-sam-go client development library(stable)](https://github.com/go-i2p/go-sam-go) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/go-sam-go)](https://goreportcard.com/report/github.com/go-i2p/go-sam-go)
-  - Modular, clean SAMv3 protocol client implementation.
+* [go-sam-go client development library(unstable)](https://github.com/go-i2p/go-sam-go) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/go-sam-go)](https://goreportcard.com/report/github.com/go-i2p/go-sam-go)
+  - Modular, clean SAMv3 protocol client implementation. Work-in-progress, seeking contributors, reviewers, and testers.
   `import "github.com/go-i2p/go-sam-go"`
 
 * [gosam client development library(stable)](https://github.com/go-i2p/gosam) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/gosam)](https://goreportcard.com/report/github.com/go-i2p/gosam)
@@ -53,6 +53,18 @@ The new module paths are listed below:
 * [go-i2p-bt I2P Bittorrent library(stable)](https://github.com/go-i2p/go-i2p-bt) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/go-i2p-bt)](https://goreportcard.com/report/github.com/go-i2p/go-i2p-bt)
   - Anonymous BitTorrent protocol implementation
   `import "github.com/go-i2p/go-i2p-bt"`
+
+## Official source of I2P Tunnel development libraries:
+
+* [go-i2ptunnel I2P Tunnel library(unstable)](https://github.com/go-i2p/go-i2ptunnel) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/go-i2ptunnel)](https://goreportcard.com/report/github.com/go-i2p/go-i2ptunnel)
+  - Anonymous Proxy/Reverse Proxy tunnel implementation. Work-in-progress, seeking contributors, reviewers, and testers.
+  `import "github.com/go-i2p/go-i2ptunnel"`
+
+## Official source of I2P SMTP development libraries:
+
+* [go-i2p-smtp I2P Mail library(unstable)](https://github.com/go-i2p/go-i2p-smtp) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/go-i2p-smtp)](https://goreportcard.com/report/github.com/go-i2p/go-i2p-smtp)
+  - Anonymous email implementation. Work-in-progress, seeking contributors, reviewers, and testers.
+  `import "github.com/go-i2p/go-i2p-smtp"`
 
 ### Official source of I2P router development libraries:
 
