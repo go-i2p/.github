@@ -27,11 +27,11 @@ The new module paths are listed below:
   `import "github.com/go-i2p/onramp"`
 
 * [gosam client development library(stable)](https://github.com/go-i2p/gosam) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/gosam)](https://goreportcard.com/report/github.com/go-i2p/gosam)
-  - High-level SAM protocol implementation
+  - High-level SAM protocol implementation. Maintenance mode, future PR's should go to go-sam-go.
   `import "github.com/go-i2p/gosam"`
 
 * [sam3 client development library(stable)](https://github.com/go-i2p/sam3) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/sam3)](https://goreportcard.com/report/github.com/go-i2p/sam3)
-  - Modern, flexible SAMv3 protocol client implementation
+  - Modern, flexible SAMv3 protocol client implementation. Maintenance mode, future PR's should go to go-sam-go.
   `import "github.com/go-i2p/sam3"`
 
 * [i2pkeys key handling library(stable)](https://github.com/go-i2p/i2pkeys) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/i2pkeys)](https://goreportcard.com/report/github.com/go-i2p/i2pkeys)
