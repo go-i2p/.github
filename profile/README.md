@@ -70,7 +70,7 @@ The new module paths are listed below:
 
 go-i2p is under active development. [go-i2p ROADMAP.md](https://github.com/go-i2p/go-i2p/blob/master/ROADMAP.md)
 
-* [go-i2p I2P router implementation(incomplete and unstable)](https://github.com/go-i2p/go-i2p) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/go-i2p)](https://goreportcard.com/report/github.com/go-i2p/go-i2p)
+* [go-i2p I2P router implementation(incomplete but usable by experts)](https://github.com/go-i2p/go-i2p) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/go-i2p)](https://goreportcard.com/report/github.com/go-i2p/go-i2p)
   - Native Go I2P router implementation
   `import "github.com/go-i2p/go-i2p"`
 
