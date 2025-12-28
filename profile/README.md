@@ -22,20 +22,20 @@ The new module paths are listed below:
 
 ## Official source of I2P SAMv3 application development libraries:
 
-* [onramp high-level development library(stable)](https://github.com/go-i2p/onramp) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/onramp)](https://goreportcard.com/report/github.com/go-i2p/onramp)
-  - High-level framework for I2P-native web services
+* [onramp high-level development library(stable, recommended)](https://github.com/go-i2p/onramp) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/onramp)](https://goreportcard.com/report/github.com/go-i2p/onramp)
+  - High-level framework for I2P-native services, based on go-sam-go
   `import "github.com/go-i2p/onramp"`
 
-* [go-sam-go client development library(unstable)](https://github.com/go-i2p/go-sam-go) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/go-sam-go)](https://goreportcard.com/report/github.com/go-i2p/go-sam-go)
-  - Modular, clean SAMv3 protocol client implementation. Work-in-progress, seeking contributors, reviewers, and testers.
+* [go-sam-go client development library(stable, recommended)](https://github.com/go-i2p/go-sam-go) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/go-sam-go)](https://goreportcard.com/report/github.com/go-i2p/go-sam-go)
+  - Modular, clean SAMv3 protocol client implementation. Supports all current SAMv3.3 features and some future SAMv3.3 features.
   `import "github.com/go-i2p/go-sam-go"`
 
 * [gosam client development library(stable)](https://github.com/go-i2p/gosam) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/gosam)](https://goreportcard.com/report/github.com/go-i2p/gosam)
   - High-level SAM protocol implementation. Maintenance mode, future PR's should go to go-sam-go.
   `import "github.com/go-i2p/gosam"`
 
-* [sam3 client development library(stable)](https://github.com/go-i2p/sam3) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/sam3)](https://goreportcard.com/report/github.com/go-i2p/sam3)
-  - Modern, flexible SAMv3 protocol client implementation. Maintenance mode, future PR's should go to go-sam-go.
+* [sam3 client development library(stable, deprecated)](https://github.com/go-i2p/sam3) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/sam3)](https://goreportcard.com/report/github.com/go-i2p/sam3)
+  - Modern, flexible SAMv3 protocol client implementation. Maintenance mode, please migrate to go-sam-go.
   `import "github.com/go-i2p/sam3"`
 
 * [i2pkeys key handling library(stable)](https://github.com/go-i2p/i2pkeys) [![Go Report Card](https://goreportcard.com/badge/github.com/go-i2p/i2pkeys)](https://goreportcard.com/report/github.com/go-i2p/i2pkeys)
