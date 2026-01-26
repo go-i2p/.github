@@ -74,3 +74,13 @@ go-i2p/go-sam-go is slightly different from the other parts of this section beca
 Finally, we combine `go-i2p/go-sam-bridge` and `go-i2p/go-sam-go` into a single library which automatically ties the lifecycle of the router to the networking requirements of the application using it.
 
  - github.com/go-i2p/onramp - 10 internal dependencies - does embed go-i2p/go-i2p, indirectly, by embedding go-sam-bridge
+
+Higher-level application-facing libraries, integrations
+-------------------------------------------------------
+
+To Be Continued: consists of components which are configured to use I2P by default while also integrating with other libraries.
+
+ - github.com/go-i2p/go-i2p-bt
+ - github.com/go-i2p/go-i2ptunnel
+ - github.com/go-i2p/go-i2p-smtp
+ - github.com/go-i2p/wireguard
