@@ -71,6 +71,6 @@ go-i2p/go-sam-bridge is itself embeddable, per:
 
 
 go-i2p/go-sam-go is slightly different from the other parts of this section because it *does* depend on an I2P router but it doesn't specifically require our stack, it can work with any I2P router including the Java, C++, and Rust versions.
-Finally, we combine `go-i2p/go-sam-bridge` and `go-i2p/go-sam-go` into a single library which automatically ties the lifecycle of the router to the networking requirements of the
+Finally, we combine `go-i2p/go-sam-bridge` and `go-i2p/go-sam-go` into a single library which automatically ties the lifecycle of the router to the networking requirements of the application using it.
 
  - github.com/go-i2p/onramp - 10 internal dependencies - does embed go-i2p/go-i2p, indirectly, by embedding go-sam-bridge
